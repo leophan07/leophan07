@@ -5,7 +5,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-display font-bold mb-4">Contact Me</h2>
           <p className="text-secondary max-w-2xl mx-auto">
-            Let's discuss your project and see how I can help.
+            Let&apos;s discuss your project and see how I can help.
           </p>
         </div>
         <div className="max-w-2xl mx-auto">

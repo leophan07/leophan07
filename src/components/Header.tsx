@@ -40,7 +40,7 @@ export default function Header() {
             ))}
           </nav>
           <Link href="#contact" className="button-primary max-lg:ml-auto">
-            Let's talk
+            Let&apos;s talk
           </Link>
 
           {/* Mobile Menu Button */}
