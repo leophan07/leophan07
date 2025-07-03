@@ -3,8 +3,11 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section id="home" className="pt-[200] pb-[130] text-secondary relative">
-      <div className="container flex flex-wrap gap-x-[50] gap-y-[16] min-h-[556] xl:flex-nowrap">
+    <section
+      id="home"
+      className="pt-[200px] pb-[130px] text-secondary relative"
+    >
+      <div className="container flex flex-wrap gap-x-[50px] gap-y-[16px] min-h-[556px] xl:flex-nowrap">
         <div className="flex flex-col grow">
           <div className="flex gap-4 mb-4 max-sm:justify-center">
             <Image src="/images/hey.svg" alt="Hey" width={30} height={30} />
@@ -30,12 +33,12 @@ export default function Hero() {
             />
           </Link>
         </div>
-        <div className="relative w-full max-w-[360] min-w-[360] min-h-[556px] max-sm:mx-auto">
+        <div className="relative w-full max-w-[360px] min-w-[360px] min-h-[556px] max-sm:mx-auto">
           <Image
             src="/images/avatar_hero.png"
             alt="Leo Phan"
             fill
-            className="object-cover rounded-[200]"
+            className="object-cover rounded-[200px]"
           />
         </div>
         <div className="flex flex-col self-end w-full xl:max-w-[410px] lg:max-w-[100%]">
